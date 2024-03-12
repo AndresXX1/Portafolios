@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import Button from "./components/button/Button";
 
 // Splash Screen
 
@@ -20,26 +21,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Andres Vera",
+  title: "Hola a todos, Soy Andres",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Un apasionado desarrollador de software Full Stack 🚀 con experiencia en la creación de aplicaciones web y móviles con JavaScript/Reactjs/Nodejs/React Native y algunas otras bibliotecas y marcos interesantes."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+ 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/AndresXX1",
+  linkedin: "https://www.linkedin.com/in/andres-vera-676414281/",
+ gmail: "andres_9_09@hotmail.com",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Lo que hago",
+  subTitle: "Desarrollador full stack developer que busca explorar todo lo relacionado a la programacion",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Desarrolle interfaces de usuario/front-end altamente interactivas para sus aplicaciones web y móviles"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Aplicaciones web (SPA) "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integracion de servicios de terceros  Firebase/ Mercado Pago / Google login / Google Maps / wallets de cryptos / etc "
     )
   ],
 
@@ -126,24 +123,40 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Henry BootCamp ",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Full Stack Developer",
+      duration: "Marzo 2023 - Marzo 2024",
+      desc: "+800 horas de cursada realizando 2 proyectos individuales y 2 proyectos grupales",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Los proyectos individuales tienen el proposito de perfeccionar las heard Skill",
+        "Los proyectos grupales mejoraron mucho mis soft skill como el trabajo en equipo y la coordinacion del mismo"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Instituto de ingles (P. Ochoa)",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      subHeader: "Curso de Ingles desde 0",
+      duration: "Octubre 2023 - Actualidad",
+      desc: "Ingles para principiantes",
+      descBullets: ["Actualmente cursando el modulo 3/4"]
+    },
+    {
+      schoolName: "Facultad de Arquitectura (F.A.U.D.I) (U.N.C)",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Arquitecto",
+      duration: "Febrero 2017 - Diciembre 2020",
+      desc: "Complete el 2do año de la carrera y curse algunas materias de 3ro",
+      descBullets: ["Promedio de 10 en todas las materias, el mejor de la clase siempre"]
+    },
+    {
+      schoolName: "Ing C. Cassaffousth",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Tecnico Maestro mayor de Obras",
+      duration: "Febrero 2009 - Diciembre 2016",
+      desc: "Especialista en estructuras sismo resistentes",
+      descBullets: ["1er puesto provincial en diseño arquitectonico "]
+    },
   ]
 };
 
@@ -174,29 +187,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Full stack Developer",
+      company: "Henry",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Marzo 2023 – Marzo 2024",
+      desc: "Contrato de formacion",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Realizacion de 2 proyectos profecionales con un equipo profecional",
+        "Relizacion de proyectos individuales aplicando las tecnologias aprendidas tanto en el front como en el back"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Operador de equipamiento pesado",
+      company: "F2J INDUSTRY",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Mayo 2020 – Febrero 2022",
+      desc: "Operario cambiador de moldes, operaba puentes gruas para mover matrices entre 10 a 20 toneladas, la principal tarea era organizar el comabio de produccion "
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Tecnico de calidad",
+      company: "Connam",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets:[ " Control Permanente del producto y cada material utilizado",
+      " Uso de herramientas de medición calibre decimal, cinta metrica, calibres pasa no pasa",
+      "Pruebas en laboratorio de resistencia a la compresión, pegado y destrucción",
+      "Carga de datos de controles de calidad y proceso cada 15min ",
+      "Creación de estadísticas y resúmenes diarios"
+
+      ]
     }
   ]
 };
@@ -212,64 +231,133 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Grandes Proyectos",
+  subtitle: "Algunos proyectos en los que trabaje",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Hostel Premium",
+      projectDesc: "Agencia Hotelera que ofrese el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Link del proyecto ",
+          url: "https://pf-front-hoteler-a-y-turismo.vercel.app/"
+        },
+        {
+          name: "Link del Administrador",
+          url: "https://pf-front-admin-seven.vercel.app/"
+        },
+        {
+          name: "Link del repositorio (Client-Front)",
+          url: "https://github.com/AndresXX1/Front-cliente-Hostel-Premium"
+        },
+        {
+          name: "Link del repositorio (Client-Back)",
+          url: "https://github.com/AndresXX1/back-pf-hoteles"
+        },
+        {
+          name: "Link del repositorio (Admin-Front)",
+          url: "https://github.com/AndresXX1/PF-front-Admin"
+        },
+        {
+          name: "Link del repositorio (Admin-Back)",
+          url: "https://github.com/AndresXX1/pf-back-hostel-admin"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Runners Paradise",
+      projectDesc: "E-commerse de zapatillas deportivas ofrece mayor visibilidad a los vendedores y genera ganancias por la venta de productos ",
+      footerLink: [
+        {
+          name: "Link del Proyecto",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/P.F-Front"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Pf-back"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Pokemon",
+      projectDesc: "Proyecto integrador del bootcamp, utilizando la poke api, la idea es desarrollar una (pokedex) como la del programa",
+      footerLink: [
+        {
+          name: "Link del proyecto",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Link del repositorio (front y back)",
+          url: "https://github.com/AndresXX1/P.i-pokemons"
+        }
+
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Drivers",
+      projectDesc: "Proyecto integrador del bootcamp de hanry donde se aplican tecnologias como react, redux, sequelize y express",
+      footerLink: [
+        {
+          name: "Link del proyecto",
+          url: "http://saayahealth.com/"
+        },
+        {
+          name: "Proyecto en gitHub (front y back)",
+          url: "https://github.com/AndresXX1/Drivers-P.I"
+        },
+        
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Rick and Morty",
+      projectDesc: "Primer proyecto como developer, salio el tercer mejor proyecto por votacion de toda la cohorte con mas de 130 compañeros",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Link del proyecto",
           url: "http://nextu.se/"
+        },
+        {
+          name: "Link del repositorio (front y back)",
+          url: "https://github.com/AndresXX1/rick-and-morty"
         }
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
+  
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Logros y certificaciones 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Logros, certificaciones, cartas de premios y algunas cosas interesantes que hice!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Full Stack Developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Desarrollador de softhware full stack fronted y backend con mas de 800 horas cursadas",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://res.cloudinary.com/ds4blfuip/image/upload/v1710204275/Imagen_de_WhatsApp_2024-03-08_a_las_17.44.07_e8d1646f_rdsfln.jpg"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+
       ]
     },
     {
@@ -360,11 +448,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactame!  ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "¿Queres discutir un proyecto o simplemente quieres saludar? Mi bandeja de entrada está abierta para todos.",
+  number: "+54-3512439562",
+  email_address: "andres_9_09@hotmail.com"
 };
 
 // Twitter Section
