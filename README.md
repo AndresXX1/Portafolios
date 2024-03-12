@@ -4,7 +4,7 @@
 * 🛠️ Intuitiva y de facil recorrido para el administrador
 * 🪟 Realizada con Node.js, React, Redux, axios, y estilada con scss 
 
- <img width="1459" alt="スクリーンショット 2023-11-20 2 23 51" src="https://s1.elespanol.com/2023/09/26/series/hbo-max/797430333_236312055_1706x960.jpg"> 
+ <img width="1459" alt="スクリーンショット 2023-11-20 2 23 51" src="https://github.com/AndresXX1/Portafolios/blob/main/src/assets/images/Imagen%20de%20WhatsApp%202024-03-12%20a%20las%2015.42.50_9cedefc5.jpg"> 
 
 ## 🌟 Quick Start
 
