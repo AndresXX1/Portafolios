@@ -39,5 +39,5 @@
 
 
 
-## 🌐 Deploy de la aplicacion front del administrador para testear 
+## 🌐 Accede al link! :D
 El link del deploy lo di de baja por falta de uso proximamente lo deployo de nuevo
