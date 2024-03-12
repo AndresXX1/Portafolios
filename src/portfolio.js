@@ -361,9 +361,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Asstente de Google",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Desarrollé un gurú de JavaScript de acción del Asistente de Google que está disponible en 2 mil millones de dispositivos en todo el mundo..",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -375,8 +375,8 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Bases de datos",
+      subtitle: "Curso completo de +40 horas de bases de datos",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
