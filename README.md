@@ -40,4 +40,6 @@
 
 
 ## 🌐 Accede al link! :D
-El link del deploy lo di de baja por falta de uso proximamente lo deployo de nuevo
+<a href="https://portafolios-ten.vercel.app/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
+ <p style="margin: 0;">Link</p>
+</a>
