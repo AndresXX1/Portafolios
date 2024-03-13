@@ -11,7 +11,8 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  educationInfo
+  educationInfo,
+  techStack
 } from "../../portfolio";
 
 function Header() {
@@ -22,6 +23,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewStaticsss = techStack.display;
   const viewEducation = educationInfo.display;
 
   return (
@@ -41,31 +43,34 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Lo que hago</a>
             </li>
           )}
+
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#education">Educacion</a>
+             
             </li>
           )}
 
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certificados</a>
             </li>
           )}
                     {viewEducation && (
             <li>
-              <a href="#education">Educacion</a>
+               <a href="#experience">Experiencias de trabajos</a>
             </li>
           )}
 
 
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contactame</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

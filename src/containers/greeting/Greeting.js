@@ -2,12 +2,13 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
+import perfil from "../../assets/images/108779502.jpeg"
 // import landingPerson from "../../assets/lottie/landingPerson";
-// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+  import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import { greeting} from "../../portfolio";
+import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
@@ -50,15 +51,23 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
-            {/* {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
+          <div className="greeting-image">
+           
+             
+              
+              
               <img
+                style={{
+                  marginLeft: "300px",
+                  marginTop: "100px",
+                  borderRadius: "50%",
+                  border: "2px solid white",
+                  boxShadow: "0 0 10px  violet" 
+                }}
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/108779502.jpeg")}
               ></img>
-            )} */}
+             
           </div>
         </div>
       </div>
