@@ -23,7 +23,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
-  const viewStaticsss = techStack.display;
+
   const viewEducation = educationInfo.display;
 
   return (
