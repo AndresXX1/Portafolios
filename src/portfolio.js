@@ -3,14 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import carga from "./assets/lottie/carga.json"; // Rename to your file name for custom animation
 import Button from "./components/button/Button";
+import React from 'react';
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: carga,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -124,7 +125,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Henry BootCamp ",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/logoOG.png"),
       subHeader: "Full Stack Developer",
       duration: "Marzo 2023 - Marzo 2024",
       desc: "+800 horas de cursada realizando 2 proyectos individuales y 2 proyectos grupales",
@@ -135,7 +136,7 @@ const educationInfo = {
     },
     {
       schoolName: "Instituto de ingles (P. Ochoa)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/channels4_profile.jpg"),
       subHeader: "Curso de Ingles desde 0",
       duration: "Octubre 2023 - Actualidad",
       desc: "Ingles para principiantes",
@@ -143,7 +144,7 @@ const educationInfo = {
     },
     {
       schoolName: "Facultad de Arquitectura (F.A.U.D.I) (U.N.C)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/images.jpeg"),
       subHeader: "Arquitecto",
       duration: "Febrero 2017 - Diciembre 2020",
       desc: "Complete el 2do año de la carrera y curse algunas materias de 3ro",
@@ -151,7 +152,7 @@ const educationInfo = {
     },
     {
       schoolName: "Ing C. Cassaffousth",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/800_5c9f3f5424e87.jpg"),
       subHeader: "Tecnico Maestro mayor de Obras",
       duration: "Febrero 2009 - Diciembre 2016",
       desc: "Especialista en estructuras sismo resistentes",
@@ -178,7 +179,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -189,7 +190,7 @@ const workExperiences = {
     {
       role: "Full stack Developer",
       company: "Henry",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/logoOG.png"),
       date: "Marzo 2023 – Marzo 2024",
       desc: "Contrato de formacion",
       descBullets: [
@@ -200,14 +201,14 @@ const workExperiences = {
     {
       role: "Operador de equipamiento pesado",
       company: "F2J INDUSTRY",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/descarga.jpeg"),
       date: "Mayo 2020 – Febrero 2022",
       desc: "Operario cambiador de moldes, operaba puentes gruas para mover matrices entre 10 a 20 toneladas, la principal tarea era organizar el comabio de produccion "
     },
     {
       role: "Tecnico de calidad",
       company: "Connam",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/16134_logo.jpg"),
       date: "Jan 2015 – Sep 2015",
       descBullets:[ " Control Permanente del producto y cada material utilizado",
       " Uso de herramientas de medición calibre decimal, cinta metrica, calibres pasa no pasa",
@@ -235,7 +236,7 @@ const bigProjects = {
   subtitle: "Algunos proyectos en los que trabaje",
   projects: [
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/hp2.jpg"),
       projectName: "Hostel Premium",
       projectDesc: "Agencia Hotelera que ofrese el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
       footerLink: [
@@ -265,8 +266,9 @@ const bigProjects = {
         }
       ]
     },
+    
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/logo_runners_paradise.jpg"),
       projectName: "Runners Paradise",
       projectDesc: "E-commerse de zapatillas deportivas ofrece mayor visibilidad a los vendedores y genera ganancias por la venta de productos ",
       footerLink: [
@@ -285,7 +287,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/pokelogo.png"),
       projectName: "Pokemon",
       projectDesc: "Proyecto integrador del bootcamp, utilizando la poke api, la idea es desarrollar una (pokedex) como la del programa",
       footerLink: [
@@ -301,7 +303,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/logo_formula1_nuevo.jpg"),
       projectName: "Drivers",
       projectDesc: "Proyecto integrador del bootcamp de hanry donde se aplican tecnologias como react, redux, sequelize y express",
       footerLink: [
@@ -318,7 +320,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/u183fjQb_400x400.jpg"),
       projectName: "Rick and Morty",
       projectDesc: "Primer proyecto como developer, salio el tercer mejor proyecto por votacion de toda la cohorte con mas de 130 compañeros",
       footerLink: [
@@ -350,7 +352,7 @@ const achievementSection = {
       title: "Full Stack Developer",
       subtitle:
         "Desarrollador de softhware full stack fronted y backend con mas de 800 horas cursadas",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/Henry-logo-white-space.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -377,7 +379,7 @@ const achievementSection = {
     {
       title: "Bases de datos",
       subtitle: "Curso completo de +40 horas de bases de datos",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/database.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
