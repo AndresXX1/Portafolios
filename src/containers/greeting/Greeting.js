@@ -58,8 +58,6 @@ export default function Greeting() {
               
               <img
                 style={{
-                  marginLeft: "300px",
-                  marginTop: "100px",
                   borderRadius: "50%",
                   border: "2px solid white",
                   boxShadow: "0 0 10px  violet" 
