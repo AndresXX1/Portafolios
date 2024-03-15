@@ -351,10 +351,7 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+    
       ]
     },
 
@@ -364,11 +361,7 @@ const achievementSection = {
       image: require("./assets/images/database.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+
       ]
     }
   ],
