@@ -61,7 +61,7 @@ export default function Greeting() {
                   borderRadius: "50%",
                   border: "2px solid white",
                   boxShadow: "0 0 10px  violet",
-                  marginLeft: "70px",
+                  marginLeft: "55px",
                   marginTop: "50px" 
                 }}
                 alt="man sitting on table"
