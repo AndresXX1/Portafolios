@@ -235,6 +235,26 @@ const bigProjects = {
   title: "Grandes Proyectos",
   subtitle: "Algunos proyectos en los que trabaje",
   projects: [
+    
+    {
+      image: require("./assets/images/logo_runners_paradise.jpg"),
+      projectName: "Runners Paradise",
+      projectDesc: "E-commerse de zapatillas deportivas ofrece mayor visibilidad a los vendedores y genera ganancias por la venta de productos ",
+      footerLink: [
+        {
+          name: "Link del Proyecto",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/P.F-Front"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Pf-back"
+        }
+      ]
+    },
     {
       image: require("./assets/images/hp2.jpg"),
       projectName: "Hostel Premium",
@@ -263,26 +283,6 @@ const bigProjects = {
         {
           name: "Link del repositorio (Admin-Back)",
           url: "https://github.com/AndresXX1/pf-back-hostel-admin"
-        }
-      ]
-    },
-    
-    {
-      image: require("./assets/images/logo_runners_paradise.jpg"),
-      projectName: "Runners Paradise",
-      projectDesc: "E-commerse de zapatillas deportivas ofrece mayor visibilidad a los vendedores y genera ganancias por la venta de productos ",
-      footerLink: [
-        {
-          name: "Link del Proyecto",
-          url: "http://nextu.se/"
-        },
-        {
-          name: "Link del repositorio (Front)",
-          url: "https://github.com/AndresXX1/P.F-Front"
-        },
-        {
-          name: "Link del repositorio (Back)",
-          url: "https://github.com/AndresXX1/Pf-back"
         }
       ]
     },
