@@ -136,7 +136,7 @@ const educationInfo = {
     },
     {
       schoolName: "Instituto de ingles (P. Ochoa)",
-      logo: require("./assets/images/channels4_profile.jpg"),
+      logo: require("./assets/images/descarga (2).png"),
       subHeader: "Curso de Ingles desde 0",
       duration: "Octubre 2023 - Actualidad",
       desc: "Ingles para principiantes",
