@@ -253,7 +253,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/hp2.jpg"),
+      image: require("./assets/images/descarga (1).png"),
       projectName: "Hostel Premium",
       projectDesc: "Agencia Hotelera que ofrese el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
       footerLink: [
