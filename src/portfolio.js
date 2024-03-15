@@ -358,7 +358,7 @@ const achievementSection = {
     {
       title: "Bases de datos",
       subtitle: "Curso completo de +40 horas de bases de datos",
-      image: require("./assets/images/database.jpg"),
+      image: require("./assets/images/png-transparent-database-design-sql-online-database-software-development-logo-computer-program-data.png"),
       imageAlt: "PWA Logo",
       footerLink: [
 
