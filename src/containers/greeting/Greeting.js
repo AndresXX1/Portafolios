@@ -60,7 +60,9 @@ export default function Greeting() {
                 style={{
                   borderRadius: "50%",
                   border: "2px solid white",
-                  boxShadow: "0 0 10px  violet" 
+                  boxShadow: "0 0 10px  violet",
+                  marginLeft: "100px",
+                  marginTop: "50px" 
                 }}
                 alt="man sitting on table"
                 src={require("../../assets/images/108779502.jpeg")}
