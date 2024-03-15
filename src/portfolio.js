@@ -241,10 +241,7 @@ const bigProjects = {
       projectName: "Runners Paradise",
       projectDesc: "E-commerse de zapatillas deportivas ofrece mayor visibilidad a los vendedores y genera ganancias por la venta de productos ",
       footerLink: [
-        {
-          name: "Link del Proyecto",
-          url: "http://nextu.se/"
-        },
+
         {
           name: "Link del repositorio (Front)",
           url: "https://github.com/AndresXX1/P.F-Front"
@@ -260,14 +257,8 @@ const bigProjects = {
       projectName: "Hostel Premium",
       projectDesc: "Agencia Hotelera que ofrese el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
       footerLink: [
-        {
-          name: "Link del proyecto ",
-          url: "https://pf-front-hoteler-a-y-turismo.vercel.app/"
-        },
-        {
-          name: "Link del Administrador",
-          url: "https://pf-front-admin-seven.vercel.app/"
-        },
+
+
         {
           name: "Link del repositorio (Client-Front)",
           url: "https://github.com/AndresXX1/Front-cliente-Hostel-Premium"
@@ -291,10 +282,7 @@ const bigProjects = {
       projectName: "Pokemon",
       projectDesc: "Proyecto integrador del bootcamp, utilizando la poke api, la idea es desarrollar una (pokedex) como la del programa",
       footerLink: [
-        {
-          name: "Link del proyecto",
-          url: "http://nextu.se/"
-        },
+
         {
           name: "Link del repositorio (front y back)",
           url: "https://github.com/AndresXX1/P.i-pokemons"
@@ -307,10 +295,7 @@ const bigProjects = {
       projectName: "Drivers",
       projectDesc: "Proyecto integrador del bootcamp de hanry donde se aplican tecnologias como react, redux, sequelize y express",
       footerLink: [
-        {
-          name: "Link del proyecto",
-          url: "http://saayahealth.com/"
-        },
+
         {
           name: "Proyecto en gitHub (front y back)",
           url: "https://github.com/AndresXX1/Drivers-P.I"
@@ -324,10 +309,7 @@ const bigProjects = {
       projectName: "Rick and Morty",
       projectDesc: "Primer proyecto como developer, salio el tercer mejor proyecto por votacion de toda la cohorte con mas de 130 compañeros",
       footerLink: [
-        {
-          name: "Link del proyecto",
-          url: "http://nextu.se/"
-        },
+
         {
           name: "Link del repositorio (front y back)",
           url: "https://github.com/AndresXX1/rick-and-morty"
