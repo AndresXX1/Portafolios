@@ -1,6 +1,7 @@
 # Portafolios (FrontEnd)
 
 * 💬 Este es mi portafolios en el cual muestro basicamente mi hoja de vida pero presentado con un proyecto de react
+utilice estas tecnologias: 
 * 🛠️ Intuitiva y de facil recorrido para el administrador
 * 🪟 Realizada con Node.js, React, Redux, axios, y estilada con scss 
 
