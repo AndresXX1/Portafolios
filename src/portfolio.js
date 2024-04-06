@@ -239,7 +239,7 @@ const bigProjects = {
     {
       image: require("./assets/images/descarga (1).png"),
       projectName: "Hostel Premium",
-      projectDesc: "Agencia Hotelera que ofrese el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
+      projectDesc: "Agencia Hotelera que da el sericio de alquiler de cabañas a los propietarios y retiene una ganancia por el servicio",
       footerLink: [
 
 
@@ -317,7 +317,7 @@ const achievementSection = {
     {
       title: "Full Stack Developer",
       subtitle:
-        "Desarrollador de softhware full stack fronted y backend con mas de 800 horas cursadas",
+        "Desarrollador de software full stack fronted y backend con mas de 800 horas cursadas",
       image: require("./assets/images/Henry-logo-white-space.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -328,16 +328,16 @@ const achievementSection = {
 
       ]
     },
-    {
-      title: "Asstente de Google",
-      subtitle:
-        "Desarrollé un gurú de JavaScript de acción del Asistente de Google que está disponible en 2 mil millones de dispositivos en todo el mundo..",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
+    // {
+    //   title: "Assitente de Google",
+    //   subtitle:
+    //     "Desarrollé un gurú de JavaScript de acción del Asistente de Google que está disponible en 2 mil millones de dispositivos en todo el mundo..",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   imageAlt: "Google Assistant Action Logo",
+    //   footerLink: [
     
-      ]
-    },
+    //   ]
+    // },
 
     {
       title: "Bases de datos",
