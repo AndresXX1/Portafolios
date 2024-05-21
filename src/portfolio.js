@@ -97,8 +97,48 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
+    {
+      skillName: "MongoDb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Redux Toolkit",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Type script",
+      fontAwesomeClassname: "fa-solid fa-user"
+    },
+    {
+      skillName: "Material UI",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Express",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Next",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "My SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "BootsTrap",
+      fontAwesomeClassname: "fa-solid fa-user"
+    },
 
-  ],
+1  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -152,11 +192,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "96%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -171,6 +211,21 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+
+    {
+      role: "Full stack Developer(Front end)",
+      company: "OPTIMO",
+      companylogo: require("./assets/images/logo5.jpeg"),
+      date: "Marzo 2024 – Mayo 2024",
+      desc: "Pasantia paga",
+      descBullets: [
+        "Realizacion del frontend completo: Diseño XUI, Dashboard Admin, Dashboard Cliente, Dashboard Super Admin, Coneccion con el backend",
+        
+        "Trabajo en equipo de 5 personas y el cliente, dirigi el equipo de desarrolladores tanto el back como el front",
+        "Reuniones diarias para la organizacion del proyecto y muestras de avance",
+        "Cumplimiento con todas las tareas pedidas trabajando con un panel organizativo"
+      ]
+    },
     {
       role: "Full stack Developer",
       company: "Henry",
@@ -182,13 +237,7 @@ const workExperiences = {
         "Relizacion de proyectos individuales aplicando las tecnologias aprendidas tanto en el front como en el back"
       ]
     },
-    {
-      role: "Operador de equipamiento pesado",
-      company: "F2J INDUSTRY",
-      companylogo: require("./assets/images/descarga.jpeg"),
-      date: "Mayo 2020 – Febrero 2022",
-      desc: "Operario cambiador de moldes, operaba puentes gruas para mover matrices entre 10 a 20 toneladas, la principal tarea era organizar el comabio de produccion "
-    },
+
     {
       role: "Tecnico de calidad",
       company: "Connam",
@@ -220,6 +269,24 @@ const bigProjects = {
   subtitle: "Algunos proyectos en los que trabaje",
   projects: [
     
+   
+   
+    {
+      image: require("./assets/images/opsnf.png"),
+      projectName: "Optimo",
+      projectDesc: "Aplicacion de administracion y organicacion de espacios, aplicacion para una empresa colombiana para gestionar edificios publicos y privados ",
+      footerLink: [
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Optimo-Front-End"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Optimo-Back-End"
+        }
+      ]
+    },
     {
       image: require("./assets/images/logo_runners_paradise.jpg"),
       projectName: "Runners Paradise",
