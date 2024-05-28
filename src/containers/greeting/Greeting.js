@@ -65,7 +65,7 @@ export default function Greeting() {
                   marginTop: "50px" 
                 }}
                 alt="man sitting on table"
-                src={require("../../assets/images/108779502.jpeg")}
+                src={require("../../assets/images/yo3.png")}
               ></img>
              
           </div>
