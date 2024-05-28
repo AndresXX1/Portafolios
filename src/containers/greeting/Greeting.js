@@ -58,10 +58,10 @@ export default function Greeting() {
               
               <img
                 style={{
-                  borderRadius: "50%",
+                  borderRadius: "70%",
                   border: "2px solid white",
                   boxShadow: "0 0 10px  violet",
-                  marginLeft: "65px",
+                  marginLeft: "165px",
                   marginTop: "50px" 
                 }}
                 alt="man sitting on table"
