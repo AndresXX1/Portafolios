@@ -270,7 +270,50 @@ const bigProjects = {
   projects: [
     
    
-   
+    {
+      image: require("./assets/images/logo20.png"),
+      projectName: "Oleo Bot",
+      projectDesc: "El proyecto es un Bot de whatsApp para el restaurante Oleo, donde se pueden hacer pedidos reservas y demas, ademas de mejorar el sistema de comandas que se utiliza habitualemte y asi tener mas control del tiempo de los pedidos",
+      footerLink: [
+
+        {
+          name: "Oleo Bot",
+          url: "https://bot-whats-app-front-oleo.vercel.app/"
+        },
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Bot-WhatsApp-Front-Oleo"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/whatsapp-bot-cocina-oleo-back"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/marvel-Logo.png"),
+      projectName: "Marvel Studio",
+      projectDesc: "Prueba tecnica para una empresa de Argentina, Realizada con Vue y java escript. El back esta realizado con spring boot y java (Microservise)",
+      footerLink: [
+
+        {
+          name: "Marvel Studio",
+          url: "https://uteam-front-vue.vercel.app/"
+        },
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Uteam-Front-Vue"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Uteam-Back-Java"
+        }
+      ]
+    },
+
     {
       image: require("./assets/images/opsnf.png"),
       projectName: "Optimo",
