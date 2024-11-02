@@ -76,8 +76,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Boot",
+       fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Vue",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "Microservices",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Dialogflow",
+      fontAwesomeClassname: "fas fa-comment"
     },
     {
       skillName: "nodejs",
@@ -137,6 +157,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "BootsTrap",
       fontAwesomeClassname: "fa-solid fa-user"
     },
+
 
 1  ],
   display: true // Set false to hide this section, defaults to true
