@@ -157,17 +157,70 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "BootsTrap",
       fontAwesomeClassname: "fa-solid fa-user"
     },
+    {
+      skillName: "Tailwind",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Android Studio",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Expo",
+      fontAwesomeClassname: "fab fa-expeditedssl"
+    },
+    {
+      skillName: "Sequelize",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Moment",
+      fontAwesomeClassname: "far fa-clock"
+    },
+    {
+      skillName: "Nodemailer",
+      fontAwesomeClassname: "fas fa-envelope"
+    },
+    {
+      skillName: "Morgan",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "SQL Shell Postgres",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Git Bash",
+      fontAwesomeClassname: "fab fa-git-square"
+    },
+    {
+      skillName: "SQL Base de datos",
+      fontAwesomeClassname: "fas fa-database"
+    },
+  ],
 
-
-1  ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
+    {
+      schoolName: "Universidad Tecnologica nacional (UTN)",
+      logo: require("./assets/images/UTN.jpg"),
+      subHeader: "Ingeniero en sistemas",
+      duration: "2024 - 2030",
+      desc: "Actualmente cursando el primer año de la carrea",
+      descBullets: [
+        "Quiero ser ingeniero en sistemas para poder seguir creciendo como un profeccional programador"
+      ]
+    },
     {
       schoolName: "Henry BootCamp ",
       logo: require("./assets/images/logoOG.png"),
@@ -209,11 +262,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, 
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "96%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", 
+      progressPercentage: "96%" 
     },
     {
       Stack: "Backend",
@@ -221,23 +274,36 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true 
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
 
     {
-      role: "Full stack Developer(Front end)",
+      role: "Full stack Developer",
+      company: "May Land",
+      companylogo: require("./assets/images/LogoMayLand.png"),
+      date: "Oct 2024 – Actualidad",
+      descBullets:[ "Realizacion de distintos proyectos en distintos equipos centrandome mas en el front-end y en la comunicacion del front-end con el back-end",
+        "Trabajo constante en equipo entre el equipo de diseñadores XUI y con el equipo del back end",
+        "Desarrollo completo de aplicaciones y paginas web como asi tambien paneles de administracion",
+        "Es un trabajo en relacion de dependencia en el cual realizamos reuniones semanales para re-organizacion o correcciones",
+        "Encargado del Front-end y de la conexion del front-end con el back-end"
+
+      ]
+    },
+    {
+      role: "Full stack Developer(Front)",
       company: "OPTIMO",
       companylogo: require("./assets/images/logo5.jpeg"),
-      date: "Marzo 2024 – Mayo 2024",
+      date: "Enero 2024 – Junio 2024",
       desc: "Pasantia paga",
       descBullets: [
         "Realizacion del frontend completo: Diseño XUI, Dashboard Admin, Dashboard Cliente, Dashboard Super Admin, Coneccion con el backend",
@@ -254,24 +320,16 @@ const workExperiences = {
       date: "Marzo 2023 – Marzo 2024",
       desc: "Contrato de formacion",
       descBullets: [
-        "Realizacion de 2 proyectos profecionales con un equipo profecional",
+        "Realizacion de 4 proyectos profecionales con un equipo conformado por 6 personas",
+        "las tecnologias principales aprendidas fueron JavaScript, React, Node.js, Express y postgress",
+        "Ganador por votos del proyecto individual o P.I con el proyecto de rick and morty",
+        "Distincion especial por diseño y manejo de datos",
+        "Mas de 900 horas de cursado intensivo aproximadamente 8 horas por dia",
         "Relizacion de proyectos individuales aplicando las tecnologias aprendidas tanto en el front como en el back"
       ]
     },
 
-    {
-      role: "Tecnico de calidad",
-      company: "Connam",
-      companylogo: require("./assets/images/16134_logo.jpg"),
-      date: "Jan 2015 – Sep 2015",
-      descBullets:[ " Control Permanente del producto y cada material utilizado",
-      " Uso de herramientas de medición calibre decimal, cinta metrica, calibres pasa no pasa",
-      "Pruebas en laboratorio de resistencia a la compresión, pegado y destrucción",
-      "Carga de datos de controles de calidad y proceso cada 15min ",
-      "Creación de estadísticas y resúmenes diarios"
 
-      ]
-    }
   ]
 };
 
@@ -289,8 +347,120 @@ const bigProjects = {
   title: "Grandes Proyectos",
   subtitle: "Algunos proyectos en los que trabaje",
   projects: [
+    {
+      image: require("./assets/images/logo_Express-Cash.png"),
+      projectName: "Express cash Panel Administrador",
+      projectDesc: "Este panel de administracion de la app expressCash que realice dentro de May Land. Esta basada en Micro prestamos personales es para que el cliente pueda administrar datos de sus clientes y ver el flujo de los mismos. Desarrolle todo el front y la union del front con el back",
+      footerLink: [
+
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/EXP-Front"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/EXP-Back"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/telefonoExpressCash.png"),
+      projectName: "Express Cash Aplicacion movil",
+      projectDesc: "Esta es la Aplicacion movil que realice dentro de  May Land. Es una aplicaccion finaniciera con el objetivo de otorgar prestamos a personas que tengan un historial crediticio confiable. Realice el front como tambien la comuniacion con el back",
+      footerLink: [
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/EXP-App"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/EXP-Back"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logo_login.png"),
+      projectName: "ArgenCompras E-Commerse",
+      projectDesc: "Este es el e-commerse De una empresa financiera que busca otorgar prestamos a travez de la venta de productos su objetivo principal es vender prestamos a travez de los productos electronicos Realizado en May Land. Solo participe del front y la comunicacion con el back",
+      footerLink: [
+
+        {
+          name: "ArgenCompras E-Commerse",
+          url: "https://ecommerce.maylandlabs.com/"
+        },
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Cons-Ecommers"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Cons-backend"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/image_mobile.png"),
+      projectName: "ArgenPesos Aplicacion movil",
+      projectDesc: "Esta aplicacion es la misma del e-commerse de argenCompras, las dos funcionan en conjunto. Desarrollada en May Land con un euqipo de trabajo y reportandole directamente al dueño de la start-Up Desarrolle algunas comunicaciones con el back end en conjunto con el equipo de desarrollo.",
+      footerLink: [
+
+        {
+          name: "ArgenPesos Aplicacion",
+          url: "https://play.google.com/store/apps/details?id=com.binarysorcerers.argenpesosnuevo&hl=es_419"
+        },
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Cons-app"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Cons-backend"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logo_argenpesos.png"),
+      projectName: "ArgenPesos Panel de Administrador",
+      projectDesc: "Este es el panel de administrador para la app argenpesos Desarrollada en May Land con un equipo de trabajo grande. En este proyecto trabaje en la coneccion entre el front-end y el back-end",
+      footerLink: [
+
+        {
+          name: "Argen Pesos Admin Panel",
+          url: "https://admin-ecommerce.maylandlabs.com"
+        },
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Cons-Admin-Frontend"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Cons-backend"
+        }
+      ]
+    },
     
-   
+    {
+      image: require("./assets/images/nosotroslogosn.png"),
+      projectName: "Profecionales",
+      projectDesc: "Este es un proyecto para ayudar a los profecionales de la construccion para hacer compras y presupuestos de mano de obra como tambien de materiales.",
+      footerLink: [
+
+
+        {
+          name: "Link del repositorio (Front)",
+          url: "https://github.com/AndresXX1/Profecionales-Front"
+        },
+        {
+          name: "Link del repositorio (Back)",
+          url: "https://github.com/AndresXX1/Profesionales-Back"
+        }
+      ]
+    },
     {
       image: require("./assets/images/logo20.png"),
       projectName: "Oleo Bot",
